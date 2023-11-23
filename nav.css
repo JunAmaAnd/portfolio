@@ -1,0 +1,28 @@
+.navbar {
+  width: 100vw;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  padding: 0 80px;
+}
+
+.navbar-items {
+  margin: 0 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link-wrapper {
+  display: flex;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.nav-link-container {
+  display: flex;
+}
+
+.nav-link-container li {
+  padding: 20px;
+}

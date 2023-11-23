@@ -1,0 +1,35 @@
+.headline-wrapper {
+  display: flex;
+  align-items: center;
+}
+.case-intro-main-wrapper {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.case-intro-img-wrapper {
+  margin: 16px;
+  flex: 1;
+}
+.case-intro-text-wrapper {
+  margin: 16px;
+  flex: 1;
+}
+
+.duration-timespent-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.problem-solution-wrapper {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.design-txt-wrapper {
+  display: flex;
+}
+.design-images-wrapper {
+  display: flex;
+}
