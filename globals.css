@@ -2,6 +2,7 @@
 
 body {
   height: 100vh;
+  width: 100vw;
   overflow-x: hidden;
   margin: 0;
 }
@@ -29,6 +30,9 @@ h4 {
   font-weight: bold;
   text-transform: uppercase;
 }
+p {
+  font-size: 20px;
+}
 a {
   color: white;
   transition: all 500ms ease-in;
@@ -37,7 +41,7 @@ a {
 }
 
 a:hover {
-  color: darkolivegreen;
+  color: #3c7e4a;
 }
 
 .project-btn {
@@ -50,12 +54,17 @@ a:hover {
   transition: all 500ms ease-in;
 }
 button:hover {
-  background-color: darkolivegreen;
+  background-color: #3c7e4a;
   color: white;
-  border: 2px solid darkolivegreen;
+  border: 2px solid #3c7e4a;
 }
 button:active {
   background-color: black;
   color: white;
   border: 2px solid black;
+}
+@media (max-width: 690px) {
+  p {
+    font-size: 16px;
+  }
 }

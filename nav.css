@@ -1,9 +1,7 @@
 .navbar {
   width: 100vw;
-  box-sizing: border-box;
   background-color: black;
   color: white;
-  padding: 0 80px;
 }
 
 .navbar-items {
@@ -12,11 +10,16 @@
   justify-content: space-between;
   align-items: center;
 }
-
+.logo-wrapper {
+  height: 65px;
+  margin: 1em 0;
+}
+.logo-image {
+  height: 100%;
+}
 .nav-link-wrapper {
   display: flex;
   height: 100%;
-  box-sizing: border-box;
 }
 
 .nav-link-container {
@@ -25,4 +28,10 @@
 
 .nav-link-container li {
   padding: 20px;
+}
+
+@media (max-width: 690px) {
+  .nav-link-container {
+    flex-direction: column;
+  }
 }
