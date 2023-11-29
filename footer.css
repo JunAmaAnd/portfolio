@@ -7,29 +7,22 @@
 }
 .footer-content {
   display: flex;
-  margin: 0 1em;
+  margin: 0 2em;
+  align-items: center;
+  width: 100%;
 }
 .footer-left {
-  flex: 1;
+  width: 50%;
 }
-
+.footer-logo-wrapper {
+  height: 20px;
+}
 .footer-right {
-  flex: 1;
   display: flex;
   justify-content: flex-end;
-}
-
-.logo {
-  height: 40px;
+  width: 50%;
 }
 
 .footer-right a {
   margin-left: 32px;
-}
-.footer-right img {
-  height: 30px;
-  transition: transform 0.5s ease;
-}
-.footer-right img:hover {
-  transform: scale(1.3);
 }
