@@ -28,6 +28,11 @@
 
 .footer-icon-link {
   width: 40px;
+  transition: all 0.3s ease-in-out;
+}
+.footer-icon-link:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
 }
 @media (max-width: 690px) {
   .footer-content {
