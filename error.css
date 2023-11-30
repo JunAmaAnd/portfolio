@@ -1,0 +1,21 @@
+.error-message-container {
+  width: 80vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+.error-txt-container {
+  text-align: center;
+}
+.go-home-container {
+  margin: 1em auto;
+}
+.go-home-link {
+  color: black;
+  transition: all 0.3s ease-in-out;
+  display: block;
+  font-size: 24px;
+}
+.go-home-link:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+}
