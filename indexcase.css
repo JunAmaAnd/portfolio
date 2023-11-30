@@ -41,6 +41,7 @@
 .img-txt-wrapper {
   display: flex;
   align-items: flex-start;
+  height: 100%;
 }
 .case-item {
   padding: 0 10px;
@@ -57,8 +58,10 @@
 .case-txt-wrapper {
   width: 50%;
   padding-left: 2em;
+  min-height: 350px;
 }
 .caselink {
+  display: flex;
   text-transform: uppercase;
   border-radius: 20px;
   border: 2px solid black;
@@ -66,6 +69,11 @@
   background: none;
   transition: all 300ms ease-in-out;
   color: black;
+  margin: 30px 0;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 80px;
 }
 .caselink:hover {
   background-color: #3c7e4a;
@@ -79,7 +87,7 @@
   border: 2px solid black;
 }
 
-@media (max-width: 690px) {
+@media (max-width: 850px) {
   .cases-container {
     width: 80vw;
   }
@@ -126,5 +134,8 @@
     margin-top: 0;
     width: 55px;
     height: 55px;
+  }
+  .project-description {
+    text-align: center;
   }
 }
